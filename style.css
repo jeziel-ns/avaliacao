@@ -2,6 +2,7 @@
    background-color: #68524f;
    font-family: Arial, sans-serif;
    color: #fff;
+   margin-left: 5px;
 }
 .links{
     color: #e6b120;
@@ -34,7 +35,7 @@
     font-size: 35px;
 }
 .parte3{
-    align-items: flex-start;
+    justify-content: left;
 }
 .nome{
     background-color: #fff;
@@ -58,5 +59,10 @@
     border-radius: 50px;
     height: 35px;
     width: 100px;
+    margin-bottom: 5px;
+}
+.img2{
+    display: flex;
+    justify-content: right;
 }
 \\display flex align-items justify content
